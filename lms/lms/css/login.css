@@ -1,0 +1,292 @@
+body{
+    background-image: url(../img/laptop.png);
+}
+.newone{
+    color: red;
+}
+#login .box{ 
+    /* border: 2px solid black; */
+    padding: 34px;
+    margin: 100px;
+    border-radius: 10px;
+    background: #c4d9db;
+    margin-left: 28rem;
+    margin-right: 28rem;
+    filter: drop-shadow(2px 2px 5px #111);
+}
+
+#login{
+    position: relative;
+}
+
+#login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#login-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 90000000px;
+    font-size: 1.1rem;
+}
+
+#login-box form{
+    width: 40%;
+}
+
+#login-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
+#role{
+    background: none;
+    border-radius: 2px;
+    text-decoration: none;
+    outline: none;
+}
+.role{
+    outline: none;
+    text-decoration: none;
+}
+
+.form-control{
+  padding: 5px 0px;
+  font-size: 16px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 2px solid #222;
+  outline: none;
+  resize: none;
+  background: none;
+}
+/* for signup  */
+.form-control1{
+  padding: 5px 0px;
+  font-size: 9px;
+  margin: 5px 0px;
+  border: none;
+  border-bottom: 1px solid #222;
+  outline: none;
+  resize: none;
+  background: none;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.dummy{
+    font-size: 1.1rem;
+    justify-content: center;
+    text-align: center;
+
+}
+.allready{
+    font-size: 1rem;
+}
+/* Utility Classes */
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+    letter-spacing: 2px;
+    text-decoration: underline chocolate;
+}
+
+.d-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    color: black;
+    transition: 1s;
+}
+
+.d-secondary:hover{
+    color: white;
+    transition: 1s;
+}
+.d-secondary2{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.0rem;
+
+}
+.address{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.0rem;
+    padding: 30px;
+}
+
+.btn{
+    color: white;
+    border: none;
+    background-color: #a56bf2;
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: #895ac7;
+    transition: 1s;
+}
+
+.loginbtn{
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.btn2{
+opacity: 0;
+}
+
+.btn3{
+    text-decoration: none;
+    color: black;
+    }
+
+.slct{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    }
+
+.hbc{
+    padding: auto;
+    border: 2px solid white;
+    background-color: white;
+    color: white;
+    opacity: 0.75;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.bphoto{
+    image-resolution: 252px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bphoto:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+/* login Navbar */
+#lnavbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#lnavbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    /* top: 0px; */
+    /* left: 0px; */
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    /* opacity: 0.7; */
+    border-radius: 50px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: center;
+    text-align: center;
+    
+    width: 90%;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 60px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: black;
+    padding: 3px 22px;
+    /* for hovering effect */
+    text-decoration: none;
+    background-image: 
+    linear-gradient(
+        transparent 0%,
+        transparent 90%,
+        hotpink 90%,
+        hotpink 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+
+    transition: background-size 300ms;
+}
+
+#navbar ul li a:hover{
+   background-size: 100% 100%;
+   background-position-x: left;
+}
